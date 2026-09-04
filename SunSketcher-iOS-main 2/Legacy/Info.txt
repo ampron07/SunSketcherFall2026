@@ -1,0 +1,43 @@
+This folder contains all of the disabled features from the
+Spring 2026 scale back.
+
+To "enable" any of these features, move the files/folder to
+the SunSketcher directory.
+
+None of these files have been updated Spring 2024.
+
+--For OpenCV--
+SunSketcher -> Build Phases -> Link Binary with Libraries
++ add opencv2.framework
+
+In file SunSketcher-Bridging-Header, uncomment:
+#import "OpenCVWrapper.h"
+
+In file PrefixHeader. uncomment:
+#ifdef __cplusplus
+#include <opencv2/opencv.hpp>
+#endif
+
+In folder CameraFunctionality, in file CustomCameraView, uncomment:
+CroppingImages()
+
+Comment:
+AfterPhotosReceived()
+
+--For Server--
+In file MainScreen, uncomment:
+var socket = Socket()
+ImageScrollView:View
+func getCLinetID()
+ImageScrollView()
+Comment:
+AfterPhotosRecieved()
+
+--Client ID Completely Removed--
+Allegedly, not needed even when the server is active.
+You will need to command+f to search for references to clientID,
+uncomment those
+In MainScreen, uncomment:
+Line 172 else block
+
+In file ContentView, uncomment block.

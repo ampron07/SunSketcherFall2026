@@ -53,8 +53,18 @@ public class LocToTime {
     // Holds the observational constants that can be used for the location of the eclipse
     var obsvconst: [Double] = [Double](repeating: 0.0, count: 7)
     
+    //Aug. 12, 2026 | SPAIN/ICELAND
+    public var elements: [Double] = [2461265.24104, 18.0, -3.0, 3.0,   69.1,   69.1,
+                                   0.47551399,   0.51892489,  -0.00007730,  -0.00000804,
+                                   0.77118301,  -0.23016800,  -0.00012460,   0.00000377,
+                                   14.79666996,  -0.01206500,  -0.00000300,
+                                   88.74778748,  15.00308990,   0.00000000,
+                                   0.53795499,   0.00009390,  -0.00001210,
+                                   -0.00814200,   0.00009350,  -0.00001210,
+                                    0.00461410,   0.00459110]
+    
     //Aug. 21, 2017 (for testing)
-    /*public static var elements: [Double] = [2457987.268521,  18.0, -4.0, 4.0, 70.3, 70.3,
+    /*public var elements: [Double] = [2457987.268521,  18.0, -4.0, 4.0, 70.3, 70.3,
                                      -0.1295710,   0.5406426, -2.940e-05, -8.100e-06,
                                      0.4854160,  -0.1416400, -9.050e-05,  2.050e-06,
                                      11.8669596,  -0.0136220, -2.000e-06,
@@ -62,18 +72,16 @@ public class LocToTime {
                                      0.5420930,   0.0001241, -1.180e-05,
                                      -0.0040250,   0.0001234, -1.170e-05,
                                      0.0046222,   0.0045992]*/
-    // For Apr 8, 2024
-    public var elements: [Double] = [2460409.262841, 18.0, -4.0, 4.0, 69.2, 69.2,    //Date, hour of greatest eclipse, delta T
+ 
+    // For Apr 8, 2024 | Set iPhone time to ~12:56PM
+    /*public var elements: [Double] = [2460409.262841, 18.0, -4.0, 4.0, 69.2, 69.2,    //Date, hour of greatest eclipse, delta T
                                      -0.3182485,    0.5117099,  0.0000326, -0.0000084,                                //x
                                       0.2197639,    0.2709581, -0.0000594, -0.0000047,                                //y
                                       7.5861838,    0.0148444, -0.0000017,                                            //d
                                      89.591230,    15.004082,  -8.380e-07,                                            //mu
                                       0.5358323,    0.0000618, -1.276e-05,                                            //l1
                                      -0.0102736,    0.0000615, -1.269e-05,                                            //l2
-                                      0.0046683,    0.0046450]
-    
-    // For August 12, 2026
-    
+                                      0.0046683,    0.0046450]*/
     
     //
     // Eclipse circumstances
@@ -886,14 +894,15 @@ public class LocToTime {
         ////print("calculatefor called")
         var info = ["",""]
         
-        //print("Lat: \(lat), lon: \(lon), alt: \(alt)")
+        print("Lat: \(lat), lon: \(lon), alt: \(alt)")
         
         calcObsv(lat: lat, lon: lon, alt: alt)
         //calcObsv(25.122, -104.2252, alt)
 
         getall()
+        print("Eclipse type:", mid[39])
         //print("Mid[39]: \(mid[39])")
-        if(mid[39] > 1){
+        if(mid[39] >= 1){ // added = for testing
             info[0] = gettime(&c2)
             info[1] = gettime(&c3)
             //print("LocationTiming \(info[0]);   \(info[1])")

@@ -237,7 +237,7 @@ struct CountdownScreen: View {
             // Create a countdown timer here that will be passed to a swiftui view
             countdownTimeDiff = ((times[0]) - 60) - (Int64(Date().timeIntervalSince1970))
             
-            
+            print("Date:", Date().formatted())
             print("Countdown Diff Time: \(countdownTimeDiff)")
             
             

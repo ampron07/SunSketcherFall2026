@@ -26,6 +26,16 @@ class LocationManager: NSObject, ObservableObject {
     
     private var locationCallback: ((CLLocation) -> Void)?
     private let locationManager = CLLocationManager()
+    /*private let spoofedLocation = CLLocation(
+                    coordinate: CLLocationCoordinate2D(
+                        latitude: 40.53766,
+                        longitude: -3.61249
+                    ),
+                    altitude: 0.0,
+                    horizontalAccuracy: 1.0,
+                    verticalAccuracy: 1.0,
+                    timestamp: Date()
+                )*/
     
     override init() {
         super.init()
@@ -58,17 +68,22 @@ class LocationManager: NSObject, ObservableObject {
 extension LocationManager: CLLocationManagerDelegate {
     
     func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
+        /*self.location = spoofedLocation
+                    self.region = MKCoordinateRegion(
+                        center: spoofedLocation.coordinate,
+                        latitudinalMeters: 5000,
+                        longitudinalMeters: 5000
+                    )*/
+        
+        
         
         if let lastLocation = locations.last {
             let altitude = lastLocation.altitude
             self.location = lastLocation
             self.region = MKCoordinateRegion(center: lastLocation.coordinate, latitudinalMeters: 5000, longitudinalMeters: 5000)
-            
         }
         
-    }
         
-
-    
+    }
     
 }

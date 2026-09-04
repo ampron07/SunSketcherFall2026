@@ -78,8 +78,9 @@ struct CustomCameraView: View {
 struct NextView: View {
     
     var body: some View {
-        CroppingImages()
+        //CroppingImages()
         //SharePhotos()
+        AfterPhotosReceived()
     }
     
 }

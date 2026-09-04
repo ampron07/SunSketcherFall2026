@@ -22,15 +22,16 @@ import UserNotifications
 struct MainScreen: View {
     let prefs = UserDefaults.standard
     var isTutorialDone = false
-    var socket = Socket()
+//    var socket = Socket()
     
     @ObservedObject var viewModel: MainScreenModel
     @State private var shouldRefreshView = false 
     
+    @StateObject private var locationManager = LocationManager()
     @State private var isPermissionRequested = false
-    var main = SunSketcherApp()
+    //var main = SunSketcherApp()
     
-    @State private var clientIDobtained = false
+    //@State private var clientIDobtained = false
     @State private var backgroundTask: BackgroundTask?
     
     @State var photoCaptureDone = false // Keeps the state of photo captures
@@ -111,7 +112,7 @@ struct MainScreen: View {
                                 .offset(x: 0, y: -geo.size.height * 0.25)
                             }
                             
-                            // For tutorial buttn
+                            // For tutorial button
                             NavigationLink(destination: TutorialScreen1(shouldRefreshView: $shouldRefreshView), label: {
                                 Text("Tutorial")
                                     .font(Font.custom("Montserrat-SemiBold", size: geo.size.width * 0.12))
@@ -169,7 +170,7 @@ struct MainScreen: View {
                     if arrayCount > 0 {
                         print("Array count greater than 0")
                         photoCaptureDone = true
-                    } else {
+                    } /*else {
                         // Create a background task to handle getting client ID
                         backgroundTask = BackgroundTask { task in
                             // If the client ID is not obtained yet we want the client to keep trying.
@@ -224,11 +225,10 @@ struct MainScreen: View {
                             
                             
                         }
-                        ß
                         self.prefs.set(false, forKey: "Transfer complete")
                         self.prefs.set(false, forKey: "Transfer called")
                         self.prefs.set(false, forKey: "Socket open")
-                    }
+                    }*/
                     
                 })
                 .onChange(of: shouldRefreshView) { _ in // Refresh view when shouldRefreshView changes
@@ -236,16 +236,18 @@ struct MainScreen: View {
                 }
             }// For geometry
         } else {
-            ImageScrollView()
+            //ImageScrollView()
+            AfterPhotosReceived()
         }
         
     }// For body
     
-    
+     
     
     private func requestPermissions() {
         // Request location permission
-        main.locationManager.requestLocationPermission()
+        locationManager.requestLocationPermission()
+            // Request result printed in LocationManager
         
         // Request camera permission
         AVCaptureDevice.requestAccess(for: .video) { granted in
@@ -300,19 +302,19 @@ struct MainScreen: View {
     }
     
     
-    func getClientID() {
+    /*func getClientID() {
         let idRequest = UnsecureTransfer()
         let idReqStatus = idRequest.IDRequest()
         return
-    }
+    }*/
 
 }
 
-struct ImageScrollView: View {
+/*struct ImageScrollView: View {
     var body: some View {
         SharePhotos()
     }
-}
+}*/
 
 
 //struct MainScreen_Previews: PreviewProvider {

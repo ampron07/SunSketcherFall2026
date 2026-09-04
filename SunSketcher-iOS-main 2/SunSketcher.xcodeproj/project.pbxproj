@@ -9,19 +9,16 @@
 /* Begin PBXBuildFile section */
 		8408892B2AD473A400F2A93C /* CameraService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8408892A2AD473A400F2A93C /* CameraService.swift */; };
 		8408892D2AD477E500F2A93C /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8408892C2AD477E500F2A93C /* CameraView.swift */; };
-		84194DA92AE83FBB0057A0EB /* Sunset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84194DA82AE83FBB0057A0EB /* Sunset.swift */; };
 		8434D22A2A99221A0068D985 /* SunsketcherApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8434D2292A99221A0068D985 /* SunsketcherApp.swift */; };
 		8434D22C2A99221A0068D985 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8434D22B2A99221A0068D985 /* ContentView.swift */; };
 		8434D22E2A99221B0068D985 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8434D22D2A99221B0068D985 /* Assets.xcassets */; };
 		8434D2312A99221B0068D985 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8434D2302A99221B0068D985 /* Preview Assets.xcassets */; };
-		847ECB542BBB670F00C70190 /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 847ECB532BBB670F00C70190 /* opencv2.framework */; };
 		848A5B482ABB3A64000DB76D /* CameraControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848A5B472ABB3A64000DB76D /* CameraControl.swift */; };
 		84C307232AA8EC020052078B /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C307222AA8EC020052078B /* LocationManager.swift */; };
 		84CDE40D2AB0C8560011ED23 /* LocToTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CDE40C2AB0C8560011ED23 /* LocToTime.swift */; };
 		84D07C7B2AD5A1D4001E1DD4 /* CustomCameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D07C7A2AD5A1D4001E1DD4 /* CustomCameraView.swift */; };
 		D81784892B62B5C200922020 /* MainScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D81784882B62B5C200922020 /* MainScreen.swift */; };
 		D81B21212B9FAE3A00E21AE2 /* BackgroundTaskHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D81B21202B9FAE3A00E21AE2 /* BackgroundTaskHandler.swift */; };
-		D81B41DD2B7BCA4E0070A2FF /* CroppingImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = D81B41DC2B7BCA4E0070A2FF /* CroppingImages.swift */; };
 		D81B41DF2B7BCA8D0070A2FF /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D81B41DE2B7BCA8D0070A2FF /* Launch Screen.storyboard */; };
 		D81B41E12B7BFAA70070A2FF /* TermAndConditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D81B41E02B7BFAA70070A2FF /* TermAndConditions.swift */; };
 		D84B73542B6C02AE008C21C2 /* Montserrat-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D84B73422B6C02AE008C21C2 /* Montserrat-ExtraLight.ttf */; };
@@ -42,13 +39,7 @@
 		D84B73752B6C02D5008C21C2 /* Montserrat-Italic-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D84B73722B6C02D5008C21C2 /* Montserrat-Italic-VariableFont_wght.ttf */; };
 		D84B73762B6C02D5008C21C2 /* Oswald-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D84B73732B6C02D5008C21C2 /* Oswald-VariableFont_wght.ttf */; };
 		D84B73772B6C02D5008C21C2 /* Montserrat-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D84B73742B6C02D5008C21C2 /* Montserrat-VariableFont_wght.ttf */; };
-		D85E62ED2B7424F900EB5806 /* Socket.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85E62EC2B7424F900EB5806 /* Socket.swift */; };
 		D88692BF2B88F05D007CB7C9 /* AppViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88692BE2B88F05D007CB7C9 /* AppViewModel.swift */; };
-		D88692C52B89016B007CB7C9 /* OpenCVWrapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = D88692C42B89016B007CB7C9 /* OpenCVWrapper.mm */; };
-		D88692C92B89061F007CB7C9 /* ImageCropping.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88692C82B89061F007CB7C9 /* ImageCropping.swift */; };
-		D88E28AA2B767C5C00ABE837 /* YesSharePhotosResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88E28A92B767C5C00ABE837 /* YesSharePhotosResponse.swift */; };
-		D88E28AD2B767CE700ABE837 /* ReaffirmNoDecision.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88E28AC2B767CE700ABE837 /* ReaffirmNoDecision.swift */; };
-		D88E28B02B767D3300ABE837 /* NoSharePhotosResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88E28AF2B767D3300ABE837 /* NoSharePhotosResponse.swift */; };
 		D88E28B22B767D4B00ABE837 /* SeeOrSkipTutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88E28B12B767D4B00ABE837 /* SeeOrSkipTutorial.swift */; };
 		D88E28B42B767D6700ABE837 /* LocationVerification.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88E28B32B767D6700ABE837 /* LocationVerification.swift */; };
 		D88E28B62B767D7D00ABE837 /* NotAtLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88E28B52B767D7D00ABE837 /* NotAtLocation.swift */; };
@@ -58,7 +49,6 @@
 		D88E28BF2B76A86700ABE837 /* LearnMoreScreen3.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88E28BE2B76A86700ABE837 /* LearnMoreScreen3.swift */; };
 		D88E28C12B76A88800ABE837 /* LearnMoreScreen4.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88E28C02B76A88800ABE837 /* LearnMoreScreen4.swift */; };
 		D88E28C32B76A89E00ABE837 /* LearnMoreScreen5.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88E28C22B76A89E00ABE837 /* LearnMoreScreen5.swift */; };
-		D88E28C62B76BE6300ABE837 /* SharePhotos.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88E28C52B76BE6300ABE837 /* SharePhotos.swift */; };
 		D89949FB2B72C98B00BD44C4 /* TutorialScreen4.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89949FA2B72C98B00BD44C4 /* TutorialScreen4.swift */; };
 		D89E1F2C2B719AD300240705 /* TutorialScreen2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89E1F2B2B719AD300240705 /* TutorialScreen2.swift */; };
 		D89E1F2E2B719BBE00240705 /* TutorialScreen3.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89E1F2D2B719BBE00240705 /* TutorialScreen3.swift */; };
@@ -68,14 +58,11 @@
 		D8B0951E2B73D99B0025FADE /* TutorialScreen5.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B0951D2B73D99B0025FADE /* TutorialScreen5.swift */; };
 		D8B281992B6D4BA700D82E48 /* TutorialScreen1.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B281982B6D4BA700D82E48 /* TutorialScreen1.swift */; };
 		D8B2819B2B6D4BB600D82E48 /* LearnMoreScreen1.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B2819A2B6D4BB600D82E48 /* LearnMoreScreen1.swift */; };
-		D8F3A06F2B9274E7001045E1 /* ClientConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F3A06E2B9274E7001045E1 /* ClientConnection.swift */; };
-		D8F3A0712B9274EE001045E1 /* UnsecureTransfer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F3A0702B9274EE001045E1 /* UnsecureTransfer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8408892A2AD473A400F2A93C /* CameraService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CameraService.swift; path = Sunsketcher/CameraFunctionality/CameraService.swift; sourceTree = SOURCE_ROOT; };
 		8408892C2AD477E500F2A93C /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CameraView.swift; path = Sunsketcher/CameraFunctionality/CameraView.swift; sourceTree = SOURCE_ROOT; };
-		84194DA82AE83FBB0057A0EB /* Sunset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Sunset.swift; path = Sunsketcher/Location/Sunset.swift; sourceTree = SOURCE_ROOT; };
 		8434D2262A99221A0068D985 /* Sunsketcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sunsketcher.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8434D2292A99221A0068D985 /* SunsketcherApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SunsketcherApp.swift; sourceTree = "<group>"; };
 		8434D22B2A99221A0068D985 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -89,7 +76,6 @@
 		84D07C7A2AD5A1D4001E1DD4 /* CustomCameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CustomCameraView.swift; path = Sunsketcher/CameraFunctionality/CustomCameraView.swift; sourceTree = SOURCE_ROOT; };
 		D81784882B62B5C200922020 /* MainScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MainScreen.swift; path = Sunsketcher/Screens/MainScreen.swift; sourceTree = SOURCE_ROOT; };
 		D81B21202B9FAE3A00E21AE2 /* BackgroundTaskHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BackgroundTaskHandler.swift; path = SunSketcher/Models/BackgroundTaskHandler.swift; sourceTree = SOURCE_ROOT; };
-		D81B41DC2B7BCA4E0070A2FF /* CroppingImages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CroppingImages.swift; path = SunSketcher/Screens/ScreensAfterStartBtn/CroppingImages.swift; sourceTree = SOURCE_ROOT; };
 		D81B41DE2B7BCA8D0070A2FF /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = "Launch Screen.storyboard"; path = "SunSketcher/Screens/Launch Screen.storyboard"; sourceTree = SOURCE_ROOT; };
 		D81B41E02B7BFAA70070A2FF /* TermAndConditions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TermAndConditions.swift; path = SunSketcher/Screens/TermAndConditions.swift; sourceTree = SOURCE_ROOT; };
 		D84B73422B6C02AE008C21C2 /* Montserrat-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraLight.ttf"; sourceTree = "<group>"; };
@@ -110,17 +96,10 @@
 		D84B73722B6C02D5008C21C2 /* Montserrat-Italic-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Italic-VariableFont_wght.ttf"; sourceTree = "<group>"; };
 		D84B73732B6C02D5008C21C2 /* Oswald-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Oswald-VariableFont_wght.ttf"; sourceTree = "<group>"; };
 		D84B73742B6C02D5008C21C2 /* Montserrat-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-VariableFont_wght.ttf"; sourceTree = "<group>"; };
-		D85E62EC2B7424F900EB5806 /* Socket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Socket.swift; sourceTree = "<group>"; };
 		D87CFCD52B6AD0EE00E13EA1 /* Sunsketcher.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Sunsketcher.entitlements; sourceTree = "<group>"; };
 		D88692BE2B88F05D007CB7C9 /* AppViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppViewModel.swift; path = Sunsketcher/Models/AppViewModel.swift; sourceTree = SOURCE_ROOT; };
 		D88692C22B89016B007CB7C9 /* Sunsketcher-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Sunsketcher-Bridging-Header.h"; sourceTree = "<group>"; };
-		D88692C32B89016B007CB7C9 /* OpenCVWrapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = OpenCVWrapper.h; path = SunSketcher/OpenCVWrapper.h; sourceTree = SOURCE_ROOT; };
-		D88692C42B89016B007CB7C9 /* OpenCVWrapper.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = OpenCVWrapper.mm; path = Sunsketcher/OpenCVWrapper.mm; sourceTree = SOURCE_ROOT; };
 		D88692C62B8901CF007CB7C9 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PrefixHeader.pch; path = SunSketcher/PrefixHeader.pch; sourceTree = SOURCE_ROOT; };
-		D88692C82B89061F007CB7C9 /* ImageCropping.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ImageCropping.swift; path = Sunsketcher/ImageCropping.swift; sourceTree = SOURCE_ROOT; };
-		D88E28A92B767C5C00ABE837 /* YesSharePhotosResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = YesSharePhotosResponse.swift; path = Sunsketcher/Screens/ScreensAfterStartBtn/YesSharePhotosResponse.swift; sourceTree = SOURCE_ROOT; };
-		D88E28AC2B767CE700ABE837 /* ReaffirmNoDecision.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ReaffirmNoDecision.swift; path = Sunsketcher/Screens/ScreensAfterStartBtn/ReaffirmNoDecision.swift; sourceTree = SOURCE_ROOT; };
-		D88E28AF2B767D3300ABE837 /* NoSharePhotosResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = NoSharePhotosResponse.swift; path = SunSketcher/Screens/ScreensAfterStartBtn/NoSharePhotosResponse.swift; sourceTree = SOURCE_ROOT; };
 		D88E28B12B767D4B00ABE837 /* SeeOrSkipTutorial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SeeOrSkipTutorial.swift; path = SunSketcher/Screens/ScreensAfterStartBtn/SeeOrSkipTutorial.swift; sourceTree = SOURCE_ROOT; };
 		D88E28B32B767D6700ABE837 /* LocationVerification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LocationVerification.swift; path = SunSketcher/Screens/ScreensAfterStartBtn/LocationVerification.swift; sourceTree = SOURCE_ROOT; };
 		D88E28B52B767D7D00ABE837 /* NotAtLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = NotAtLocation.swift; path = SunSketcher/Screens/ScreensAfterStartBtn/NotAtLocation.swift; sourceTree = SOURCE_ROOT; };
@@ -130,7 +109,6 @@
 		D88E28BE2B76A86700ABE837 /* LearnMoreScreen3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LearnMoreScreen3.swift; path = SunSketcher/Screens/LearnMore/LearnMoreScreen3.swift; sourceTree = SOURCE_ROOT; };
 		D88E28C02B76A88800ABE837 /* LearnMoreScreen4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LearnMoreScreen4.swift; path = SunSketcher/Screens/LearnMore/LearnMoreScreen4.swift; sourceTree = SOURCE_ROOT; };
 		D88E28C22B76A89E00ABE837 /* LearnMoreScreen5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LearnMoreScreen5.swift; path = SunSketcher/Screens/LearnMore/LearnMoreScreen5.swift; sourceTree = SOURCE_ROOT; };
-		D88E28C52B76BE6300ABE837 /* SharePhotos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SharePhotos.swift; path = SunSketcher/Screens/ScreensAfterStartBtn/SharePhotos.swift; sourceTree = SOURCE_ROOT; };
 		D89949FA2B72C98B00BD44C4 /* TutorialScreen4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TutorialScreen4.swift; path = Sunsketcher/Screens/Tutorial/TutorialScreen4.swift; sourceTree = SOURCE_ROOT; };
 		D89E1F2B2B719AD300240705 /* TutorialScreen2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TutorialScreen2.swift; path = Sunsketcher/Screens/Tutorial/TutorialScreen2.swift; sourceTree = SOURCE_ROOT; };
 		D89E1F2D2B719BBE00240705 /* TutorialScreen3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TutorialScreen3.swift; path = Sunsketcher/Screens/Tutorial/TutorialScreen3.swift; sourceTree = SOURCE_ROOT; };
@@ -140,8 +118,6 @@
 		D8B0951D2B73D99B0025FADE /* TutorialScreen5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TutorialScreen5.swift; path = Sunsketcher/Screens/Tutorial/TutorialScreen5.swift; sourceTree = SOURCE_ROOT; };
 		D8B281982B6D4BA700D82E48 /* TutorialScreen1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TutorialScreen1.swift; path = Sunsketcher/Screens/Tutorial/TutorialScreen1.swift; sourceTree = SOURCE_ROOT; };
 		D8B2819A2B6D4BB600D82E48 /* LearnMoreScreen1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LearnMoreScreen1.swift; path = Sunsketcher/Screens/LearnMore/LearnMoreScreen1.swift; sourceTree = SOURCE_ROOT; };
-		D8F3A06E2B9274E7001045E1 /* ClientConnection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ClientConnection.swift; path = SunSketcher/Networking/ClientConnection.swift; sourceTree = SOURCE_ROOT; };
-		D8F3A0702B9274EE001045E1 /* UnsecureTransfer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UnsecureTransfer.swift; path = SunSketcher/Networking/UnsecureTransfer.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,7 +125,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				847ECB542BBB670F00C70190 /* opencv2.framework in Frameworks */,
 				D8A1B65F2B5ECCF50099B4C6 /* libsqlite3.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -181,21 +156,17 @@
 				D80F2A522B6BFFD400B36C7D /* Fonts */,
 				D87CFCD52B6AD0EE00E13EA1 /* Sunsketcher.entitlements */,
 				848B1B482B3B429000DE9856 /* Database */,
-				D87DAD642B7D5F9400447E40 /* Networking */,
 				848B1B472B3B428700DE9856 /* Location */,
 				848B1B462B3B427A00DE9856 /* CameraFunctionality */,
 				849D0FCB2B8E4AB700D4A57A /* Models */,
 				846E32A52ABA28E1004FEF60 /* Info.plist */,
 				8434D2292A99221A0068D985 /* SunsketcherApp.swift */,
-				D88692C82B89061F007CB7C9 /* ImageCropping.swift */,
 				8434D22B2A99221A0068D985 /* ContentView.swift */,
 				8434D22D2A99221B0068D985 /* Assets.xcassets */,
 				8434D22F2A99221B0068D985 /* Preview Content */,
-				D88692C32B89016B007CB7C9 /* OpenCVWrapper.h */,
 				D88692C22B89016B007CB7C9 /* Sunsketcher-Bridging-Header.h */,
 				D88692C62B8901CF007CB7C9 /* PrefixHeader.pch */,
 				8434D2272A99221A0068D985 /* Products */,
-				D88692C42B89016B007CB7C9 /* OpenCVWrapper.mm */,
 			);
 			path = Sunsketcher;
 			sourceTree = "<group>";
@@ -224,7 +195,6 @@
 			children = (
 				84CDE40C2AB0C8560011ED23 /* LocToTime.swift */,
 				84C307222AA8EC020052078B /* LocationManager.swift */,
-				84194DA82AE83FBB0057A0EB /* Sunset.swift */,
 			);
 			path = Location;
 			sourceTree = "<group>";
@@ -272,16 +242,6 @@
 			path = Fonts;
 			sourceTree = "<group>";
 		};
-		D87DAD642B7D5F9400447E40 /* Networking */ = {
-			isa = PBXGroup;
-			children = (
-				D8F3A0702B9274EE001045E1 /* UnsecureTransfer.swift */,
-				D8F3A06E2B9274E7001045E1 /* ClientConnection.swift */,
-				D85E62EC2B7424F900EB5806 /* Socket.swift */,
-			);
-			path = Networking;
-			sourceTree = "<group>";
-		};
 		D88E28AB2B767CAB00ABE837 /* Tutorial */ = {
 			isa = PBXGroup;
 			children = (
@@ -300,12 +260,7 @@
 				D88E28B12B767D4B00ABE837 /* SeeOrSkipTutorial.swift */,
 				D88E28B32B767D6700ABE837 /* LocationVerification.swift */,
 				D88E28B52B767D7D00ABE837 /* NotAtLocation.swift */,
-				D81B41DC2B7BCA4E0070A2FF /* CroppingImages.swift */,
 				D8A9AB442BC98FDD005CAC1C /* CountdownScreen.swift */,
-				D88E28C52B76BE6300ABE837 /* SharePhotos.swift */,
-				D88E28A92B767C5C00ABE837 /* YesSharePhotosResponse.swift */,
-				D88E28AC2B767CE700ABE837 /* ReaffirmNoDecision.swift */,
-				D88E28AF2B767D3300ABE837 /* NoSharePhotosResponse.swift */,
 				D88E28B72B767D9700ABE837 /* AfterPhotosReceived.swift */,
 			);
 			path = ScreensAfterStartBtn;
@@ -438,11 +393,7 @@
 				8408892B2AD473A400F2A93C /* CameraService.swift in Sources */,
 				D88E28B42B767D6700ABE837 /* LocationVerification.swift in Sources */,
 				D88692BF2B88F05D007CB7C9 /* AppViewModel.swift in Sources */,
-				D81B41DD2B7BCA4E0070A2FF /* CroppingImages.swift in Sources */,
 				D88E28B82B767D9700ABE837 /* AfterPhotosReceived.swift in Sources */,
-				D88E28AA2B767C5C00ABE837 /* YesSharePhotosResponse.swift in Sources */,
-				D88692C52B89016B007CB7C9 /* OpenCVWrapper.mm in Sources */,
-				D88E28AD2B767CE700ABE837 /* ReaffirmNoDecision.swift in Sources */,
 				D88E28C32B76A89E00ABE837 /* LearnMoreScreen5.swift in Sources */,
 				D8A9AB452BC98FDD005CAC1C /* CountdownScreen.swift in Sources */,
 				8434D22C2A99221A0068D985 /* ContentView.swift in Sources */,
@@ -450,20 +401,14 @@
 				D81784892B62B5C200922020 /* MainScreen.swift in Sources */,
 				D88E28BF2B76A86700ABE837 /* LearnMoreScreen3.swift in Sources */,
 				D81B41E12B7BFAA70070A2FF /* TermAndConditions.swift in Sources */,
-				D85E62ED2B7424F900EB5806 /* Socket.swift in Sources */,
 				D81B21212B9FAE3A00E21AE2 /* BackgroundTaskHandler.swift in Sources */,
-				D8F3A0712B9274EE001045E1 /* UnsecureTransfer.swift in Sources */,
 				D89E1F2C2B719AD300240705 /* TutorialScreen2.swift in Sources */,
-				D88E28C62B76BE6300ABE837 /* SharePhotos.swift in Sources */,
 				D8B281992B6D4BA700D82E48 /* TutorialScreen1.swift in Sources */,
 				D89949FB2B72C98B00BD44C4 /* TutorialScreen4.swift in Sources */,
 				84D07C7B2AD5A1D4001E1DD4 /* CustomCameraView.swift in Sources */,
-				D8F3A06F2B9274E7001045E1 /* ClientConnection.swift in Sources */,
 				D88E28BA2B76916E00ABE837 /* MainScreenModel.swift in Sources */,
 				84CDE40D2AB0C8560011ED23 /* LocToTime.swift in Sources */,
-				D88692C92B89061F007CB7C9 /* ImageCropping.swift in Sources */,
 				8408892D2AD477E500F2A93C /* CameraView.swift in Sources */,
-				D88E28B02B767D3300ABE837 /* NoSharePhotosResponse.swift in Sources */,
 				D8B2819B2B6D4BB600D82E48 /* LearnMoreScreen1.swift in Sources */,
 				D88E28B22B767D4B00ABE837 /* SeeOrSkipTutorial.swift in Sources */,
 				D88E28C12B76A88800ABE837 /* LearnMoreScreen4.swift in Sources */,
@@ -471,7 +416,6 @@
 				D89E1F2E2B719BBE00240705 /* TutorialScreen3.swift in Sources */,
 				D8B0951E2B73D99B0025FADE /* TutorialScreen5.swift in Sources */,
 				84C307232AA8EC020052078B /* LocationManager.swift in Sources */,
-				84194DA92AE83FBB0057A0EB /* Sunset.swift in Sources */,
 				848A5B482ABB3A64000DB76D /* CameraControl.swift in Sources */,
 				D88E28B62B767D7D00ABE837 /* NotAtLocation.swift in Sources */,
 				D88E28BD2B76A7EB00ABE837 /* LearnMoreScreen2.swift in Sources */,
@@ -618,16 +562,18 @@
 				INFOPLIST_FILE = Sunsketcher/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = SunSketcher;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.photography";
+				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
 				INFOPLIST_KEY_NSCameraUsageDescription = "This app uses the camera to capture photos of the eclipse only if you are in the path of totality and the eclipse is about to begin.";
 				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "This app requires access to the device's location to determine the time of the eclipse and whether you are in the path of totality. This data will not be linked to your identity or for tracking purposes. The app will send this data to our secure server to be used when evaluating your images to help us reveal the true shape of the sun if you choose to share your images taken with this app. Note sending your images and data is optional.";
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app requires access to the device's location to determine the time of the eclipse and whether you are in the path of totality. This data will not be linked to your identity or for tracking purposes. The app will send this data to our secure server to be used when evaluating your images to help us reveal the true shape of the sun if you choose to share your images taken with this app. Note sending your images and data is optional.";
-				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "SunSketcher saves captured eclipse images to your Photos library for later review.";
 				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "We need access to your photo library to save and manage photos in the 'SunSketcher' album.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UIStatusBarStyle = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -674,16 +620,18 @@
 				INFOPLIST_FILE = Sunsketcher/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = SunSketcher;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.photography";
+				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
 				INFOPLIST_KEY_NSCameraUsageDescription = "This app uses the camera to capture photos of the eclipse only if you are in the path of totality and the eclipse is about to begin.";
 				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "This app requires access to the device's location to determine the time of the eclipse and whether you are in the path of totality. This data will not be linked to your identity or for tracking purposes. The app will send this data to our secure server to be used when evaluating your images to help us reveal the true shape of the sun if you choose to share your images taken with this app. Note sending your images and data is optional.";
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app requires access to the device's location to determine the time of the eclipse and whether you are in the path of totality. This data will not be linked to your identity or for tracking purposes. The app will send this data to our secure server to be used when evaluating your images to help us reveal the true shape of the sun if you choose to share your images taken with this app. Note sending your images and data is optional.";
-				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "SunSketcher saves captured eclipse images to your Photos library for later review.";
 				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "We need access to your photo library to save and manage photos in the 'SunSketcher' album.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UIStatusBarStyle = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

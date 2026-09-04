@@ -17,13 +17,13 @@ struct ContentView: View {
     @StateObject private var viewModel = AppViewModel()
     
     var body: some View {
-        if viewModel.NoShareScreen {
+        /*if viewModel.NoShareScreen {
             NoSharePhotosResponse()
         } else if viewModel.SharePhotosScreen {
             SharePhotos()
         } else if viewModel.YesShareScreen {
             YesSharePhotosResponse()
-        } else if viewModel.AfterPhotosReceivedScreen {
+        } else*/ if viewModel.AfterPhotosReceivedScreen {
             AfterPhotosReceived()
         }else {
             MainScreen(viewModel: MainScreenModel())
