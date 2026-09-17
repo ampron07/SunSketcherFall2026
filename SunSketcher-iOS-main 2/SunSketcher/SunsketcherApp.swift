@@ -38,8 +38,8 @@ struct SunSketcherApp: App {
             return [startUnix, endUnix]
         }*/
     
-    //
-    /* convert `hh:mm:ss` format string to unix time (this version is specifically for Aug. 21, 2017 eclipse)
+    
+     //convert `hh:mm:ss` format string to unix time (this version is specifically for Aug. 21, 2017 eclipse)
         func convertTimes(data: [String]) -> [Int64] {
             let start = data[0].split(separator: ":").compactMap { Int($0) }
             let end = data[1].split(separator: ":").compactMap { Int($0) }
@@ -52,16 +52,16 @@ struct SunSketcherApp: App {
             let endUnix = 1789513740 + (Int64(end[0]) * 3600) + (Int64(end[1]) * 60) + Int64(end[2])
 
             return [startUnix, endUnix]
-        }*/
+        }
         
     // convert `hh:mm:ss` format string to unix time (this version is specifically for Aug. 21, 2017 eclipse)
-        func convertTimes(data: [String]) -> [Int64] {
+        /*func convertTimes(data: [String]) -> [Int64] {
             let now = Int64(Date().timeIntervalSince1970)
             let startUnix: Int64 = now + 300
             let endUnix: Int64 = now + 420
                             
             return[startUnix, endUnix]
-        }
+        }*/
     // convert `hh:mm:ss` format string to unix time (this version is specifically for Apr. 8, 2024 eclipse)
     /*func convertTimes(data: [String]) -> [Int64] {
         let start = data[0].split(separator: ":").compactMap { Int($0) }
